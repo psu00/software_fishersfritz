@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>History</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="history-page">
+
+<div class="header">
+    <span class="back">◀ Profile</span>
+    <h1>History</h1>
+</div>
+
+<!-- Tabs -->
+<div class="tabs">
+    <button data-filter="24h">24h</button>
+    <button data-filter="1w">1 week</button>
+    <button data-filter="1m">1 month</button>
+    <button data-filter="1y">1 year</button>
+    <button class="active" data-filter="total">Total</button>
+</div>
+
+<!-- Fish Container -->
+<div class="content" id="fishSummary">
+    <!-- Dynamically generated content will appear here -->
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

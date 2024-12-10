@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="profile-page">
+
+<!-- Header -->
+<div class="header">
+    <span class="back">◀ Back</span>
+    <h1>Profile</h1>
+</div>
+
+<!-- User Profile Information -->
+<div class="profile">
+    <img src="https://via.placeholder.com/60" alt="Profile Picture">
+    <h2>Username First</h2>
+    <p>Pro user since April 2017</p>
+</div>
+
+<!-- Tabs -->
+<div class="tabs">
+    <button data-filter="24h">24h</button>
+    <button data-filter="1w">1 week</button>
+    <button data-filter="1m">1 month</button>
+    <button data-filter="1y">1 year</button>
+    <button class="active" data-filter="total">Total</button>
+</div>
+
+<!-- Fish Summary Section -->
+<div class="fish-summary" id="fishSummary">
+    <!-- Dynamically generated fish-summary-item elements will go here -->
+</div>
+
+<!-- Profile Details Section -->
+<div class="profile-details">
+    <h3>PROFILE</h3>
+    <p><strong>Username:</strong> Username First</p>
+    <p><strong>Account:</strong> username.first@fishing-app.com</p>
+</div>
+
+<!-- About Section -->
+<div class="about">
+    <h3>ABOUT</h3>
+    <a href="#">Help</a>
+    <a href="#">Privacy</a>
+    <a href="#">Terms of Service</a>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
